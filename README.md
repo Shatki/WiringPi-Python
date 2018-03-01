@@ -1,29 +1,9 @@
 Raspberry Pi Low Level IO
 =========================
 
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
-
-**WARNING** This module has been _deprecated_ in favor of [Raspi.js](https://github.com/nebrius/raspi). Raspi.js uses a more advanced mechanism for managing peripherals, and is considerably more performant. Bugs will not be fixed in this module.
-
-The raspi-llio (Low Level Input/Output) module exposes the [Wiring Pi](http://wiringpi.com/) C library to Node.js, which
-provides access to GPIO, PWM, I2C, SPI, and UART capabilities. For more in depth information on how raspi-llio works,
-visit the Wiring Pi docs. All methods in this library map directly to a Wiring Pi method. Many of the methods are wrapped
-up in an object that must first be instantiated and handles file descriptors transparently.
-
 # Installation
-
-Before using raspi-llio, you must install the Wiring Pi library on your Raspberry Pi:
-
 ```
-git clone git://git.drogon.net/wiringPi
-cd wiringPi
-./build
-```
-
-Once that is done:
-
-```
-npm install raspi-llio
+pip install wiringpi
 ```
 
 # API
